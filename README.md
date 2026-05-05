@@ -87,10 +87,10 @@ Click the **"Fork"** button at the top-right of this page.
 3. In the input box, type: `URL` `v/a` `resolution/bitrate` `FPS (optional)`
 
 **Examples:**
-https://www.youtube.com/watch?v=VIDEO_ID v max
-https://www.youtube.com/watch?v=VIDEO_ID v 1080 60
-https://www.youtube.com/watch?v=VIDEO_ID v 4k
-https://www.youtube.com/watch?v=VIDEO_ID a max
+1. https://www.youtube.com/watch?v=VIDEO_ID v max
+2. https://www.youtube.com/watch?v=VIDEO_ID v 1080 60
+3. https://www.youtube.com/watch?v=VIDEO_ID v 4k
+4. https://www.youtube.com/watch?v=VIDEO_ID a max
 
 
 - `v` = video, `a` = audio
@@ -285,10 +285,10 @@ SOFTWARE.
 3. در کادر ورودی، تایپ کنید: `لینک` `v/a` `رزولوشن/بیت‌ریت` `FPS (اختیاری)`
 
 **مثال‌ها:**
-https://www.youtube.com/watch?v=VIDEO_ID v max
-https://www.youtube.com/watch?v=VIDEO_ID v 1080 60
-https://www.youtube.com/watch?v=VIDEO_ID v 4k
-https://www.youtube.com/watch?v=VIDEO_ID a max
+1. https://www.youtube.com/watch?v=VIDEO_ID v max
+2. https://www.youtube.com/watch?v=VIDEO_ID v 1080 60
+3. https://www.youtube.com/watch?v=VIDEO_ID v 4k
+4. https://www.youtube.com/watch?v=VIDEO_ID a max
 
 
 - `v` = ویدیو، `a` = صدا
