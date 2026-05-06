@@ -1,0 +1,134 @@
+---
+name: x-downloader
+
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: 'x/X URLs – separate by comma, space, or newline'
+        required: true
+
+jobs:
+  actions:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          persist-credentials: true
+
+      - name: Setup Node.js 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Parse input and extract URLs
+        id: parse
+        run: |
+          INPUT="${{ github.event.inputs.urls }}"
+          CLEANED=$(echo "$INPUT" | tr -d '"'\')
+          URLS=$(echo "$CLEANED" | grep -oP 'https?://(www\.)?(x|x)\.com/[^\s,;]+' | sort -u)
+          if [ -z "$URLS" ]; then
+            echo "ERROR: No x/X URLs found."
+            exit 1
+          fi
+          echo "$URLS" > urls.txt
+          echo "Found $(wc -l < urls.txt) URL(s) to download."
+
+      - name: Write cookies from secrets
+        run: |
+          if [ -n "$X_COOKIES" ]; then
+            echo "$X_COOKIES" > x-cookies.txt
+            echo "x cookies written."
+          else
+            echo "No X_COOKIES secret found – proceeding without login."
+          fi
+        env:
+          X_COOKIES: ${{ secrets.X_COOKIES }}
+
+      - name: Restore cached tools
+        uses: actions/cache@v4
+        id: tool-cache
+        with:
+          path: |
+            ~/.cache/pip
+          key: fetch-tools-${{ runner.os }}-v3
+
+      - name: Install tools
+        run: |
+          pip install gallery-dl
+          if ! command -v jq &> /dev/null || ! command -v ffmpeg &> /dev/null; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq jq ffmpeg
+          fi
+
+      - name: Download x content (images, videos, no JSON)
+        run: |
+          mkdir -p x_downloads
+
+          GALLERY_DL_ARGS=""
+          if [ -f "x-cookies.txt" ]; then
+            GALLERY_DL_ARGS="$GALLERY_DL_ARGS --cookies x-cookies.txt"
+          fi
+
+          gallery-dl $GALLERY_DL_ARGS \
+                     --input-file urls.txt \
+                     -d "x_downloads" \
+                     --verbose
+
+          echo "Downloads finished. Contents:"
+          ls -lhR x_downloads/
+
+      - name: Create ZIP archive (split into 99 MB parts, flattened, unique name)
+        id: zip
+        run: |
+          # Flatten all media files inside x_downloads into the ZIP root
+          mkdir -p x
+          RANDSTR=$(uuidgen | tr '[:upper:]' '[:lower:]' | tr -d '-' | head -c 8)
+          ZIP_NAME="x-contents-${RANDSTR}.zip"
+          echo "Archive base name: ${ZIP_NAME}"
+
+          # -j = junk (don't store directory paths)
+          # -r = recursive
+          # -s 99m = split at 99 MB
+          zip -s 99m -j -r "x/${ZIP_NAME}" x_downloads/
+
+          echo "Created archive parts:"
+          ls -lh x/
+
+      - name: Upload to 'x' folder
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git config http.postBuffer 524288000
+
+          if [ ! -d "x" ] || [ -z "$(ls -A x)" ]; then
+            echo "Nothing to upload."
+            exit 0
+          fi
+
+          git add x/
+          git commit -m "Add x batch download [skip ci]" || echo "Nothing to commit"
+
+          RETRIES=5
+          for i in $(seq 1 $RETRIES); do
+            echo "Push attempt $i..."
+            git pull --rebase --autostash origin "$BRANCH"
+            if git push origin "$BRANCH"; then
+              echo "Push succeeded."
+              break
+            else
+              if [ $i -lt $RETRIES ]; then
+                echo "Push rejected, retrying in 3 seconds..."
+                sleep 3
+              else
+                echo "Push failed after $RETRIES attempts."
+                exit 1
+              fi
+            fi
+          done
+          echo "All files uploaded to the 'x' folder."
