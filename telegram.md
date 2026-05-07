@@ -3,6 +3,369 @@
 <!-- MSG START -->
 
 ---
+📅 بروزرسانی: 1405/02/17 23:52
+---
+
+## VahidOOnLine — post 238738
+
+<div align="center">
+  <a href="telegram/content/VahidOOnLine_238738_1778185343.mp4">🎬 Download video</a>
+</div>
+<div dir="rtl">
+♦️صدا و سیمای جمهوری اسلامی پنجشنبه شب ۱۷ اردیبهشت به نقل از یک «مقام آگاه نظامی» گزارش داد که پس از آنچه «تعرض ارتش متجاوز آمریکا به یک نفت‌کش ایرانی» خوانده شد، یگان‌های آمریکایی در محدوده تنگه هرمز هدف حمله موشکی قرار گرفتند.
+
+این مقام مدعی شد نیروهای آمریکایی پس از «تحمل خسارت» ناچار به عقب‌نشینی و فرار شدند.
+
+مقام‌های آمریکایی و ستاد فرماندهی مرکزی ارتش آمریکا، سنتکام، تاکنون واکنشی به این ادعا نشان نداده‌اند.
+‌🇸🇦 Indypersian
+
+🤖 @VahidOOnLine
+</div>
+
+## VahidOOnLine — post 238737
+
+<div align="center">
+  <a href="telegram/content/VahidOOnLine_238737_1778185344.mp4">🎬 Download video</a>
+</div>
+<div dir="rtl">
+دونالد ترامپ، رئیس‌جمهور آمریکا، اعلام کرد در گفت‌وگوی تلفنی با اورزولا فون‌درلاین، رئیس کمیسیون اروپا، دو طرف بر جلوگیری از دستیابی جمهوری اسلامی به سلاح هسته‌ای تأکید کرده‌اند.
+
+او در تروث‌سوشال نوشت: «کاملاً متحد هستیم که ایران هرگز نباید به سلاح هسته‌ای دست پیدا کند.»
+
+ترامپ در ادامه افزود: «ما توافق داریم رژیمی که مردم خود را می‌کشد، نمی‌تواند بمبی را در اختیار داشته باشد که قادر است میلیون‌ها نفر را از بین ببرد.»
+‌🏁 🇬🇧 ManotoTV
+
+🤖 @VahidOOnLine
+</div>
+
+## mwarmonitor — post 8657
+
+
+<div dir="rtl">
+🔴 تبادل آتش بین ایران و ایالات متحده در تنگه هرمز، به نقل از روزنامه «Israel Hayom» و با استناد به منابع اسرائیلی.
+
+@mwarmonitor
+</div>
+
+## mwarmonitor — post 8656
+
+
+<div dir="rtl">
+🇮🇱دورون کادوش از رادیو نظامی ارتش اسرائیل می‌گوید: تا جایی که آن‌ها مطلع هستند، ایران اخیراً پس از حمله آمریکا به یک نفتکش ایرانی، به ناوشکن‌های موشکی آمریکا حمله کرده است.
+
+اسرائیل «تحولات را به‌دقت زیر نظر دارد».
+
+@mwarmonitor
+</div>
+
+## pm_afshaa — post 90326
+
+
+<div dir="rtl">
+خبرگزاری های داخلی:2 تا پهپاد سرنگون کردیم
+
+
+💧 Rainbet.com the #1 Non-KYC Crypto Casino & Sportsbook @rainbetcom
+
+😁 @Pm_Afshaa
+</div>
+
+## pm_afshaa — post 90325
+
+
+<div dir="rtl">
+🔴صداوسیما : بعد اینکه موشکارو شلیک کردیم ناو آمریکایی از ترس قدرت ویران کننده موژک هامون فرار کرد
+
+
+💧 Rainbet.com the #1 Non-KYC Crypto Casino & Sportsbook @rainbetcom
+
+😁 @Pm_Afshaa
+</div>
+
+## DEJradio — post 4489
+
+<div align="center">
+  <a href="telegram/content/DEJradio_4489_1778185345.jpg">🎬 Download video</a>
+</div>
+<div dir="rtl">
+🚨
+🔸 مجید محمدی، جامعه‌شناس، در سومین برنامه «پرتوی دیگر» تأکید کرد سی-چهل سال گذشته تمام مدافعان جمهوری اسلامی و لابیست‌ها ادعا کردند که اگر جنگی اتفاق بیافتد مردم پشت جمهوری اسلامی خواهند ایستاد اما اینطور نشد.
+
+او تأکید کرد «جامعه هیچ وقت اشغال ایران توسط جمهوری اسلامی را نپذیرفت.»
+
+برنامه پرتوی دیگر هر آدینه از یوتیوب کیهان لندن و شبکه دژ ساعت ۱۹:۰۰ به‌وقت تهران پخش می‌شود.
+
+#پرتوی_دیگر #جمهوری_اسلامی
+@DEJradio
+</div>
+
+## kianmeli1 — post 87237
+
+
+<div dir="rtl">
+🔴فوری-اسراییل هیوم
+
+تبادل آتش بین ایران و آمریکا در تنگه هرمز
+https://t.me/kianmeli1
+</div>
+
+## IranIntlTV — post 336033
+
+<div align="center">
+  <a href="telegram/content/IranIntlTV_336033_1778185346.mp4">🎬 Download video</a>
+</div>
+<div dir="rtl">
+تهران گفته در حال بررسی پیام‌ها و پیشنهادهای آمریکا با میانجیگری پاکستان است. در همین حال، ترامپ از پیشرفت مذاکرات ابراز امیدواری کرده اما تأکید کرده هر توافقی مشروط به محدودیت‌های جدی در برنامه هسته‌ای ایران خواهد بود. وزارت خزانه‌داری آمریکا نیز از اعمال تحریم‌های جدید علیه تهران خبر داد.
+@iranintltv
+</div>
+
+## Shin_Persian — post 5869
+
+<div align="center">
+  <img src="telegram/content/Shin_Persian_5869_1778185348.jpg" alt="Photo">
+</div>
+<div dir="rtl">
+Shin ✓ @hey_itsmyturn
+Thu, 07 May 2026 20:14:45 UTC
+
+AA activity, northwestern Tehran
+#Tehran Province, #Iran
+
+فارسی
+
+فعالیت پدافند هوایی، شمال غربی تهران
+#Tehran Province, #Iran
+
+𝕏 · @shin_persian
+</div>
+
+## FarsiVOA — post 217143
+
+<div align="center">
+  <img src="telegram/content/FarsiVOA_217143_1778185349.jpg" alt="Photo">
+</div>
+<div dir="rtl">
+⚡️ستاد فرماندهی مرکزی آمریکا، پنج‌شنبه عصر به وقت واشنگتن با انتشار این تصویر اعلام کرد که ناو هواپیمابر جورج اچ‌. دبلیو. بوش به همراه بیش از ۲۰ کشتی جنگی آمریکایی در حال اجرای محاصره دریایی جمهوری اسلامی هستند.
+@FarsiVOA
+</div>
+
+## FarsiVOA — post 217142
+
+<div align="center">
+  <a href="telegram/content/FarsiVOA_217142_1778185349.mp4">🎬 Download video</a>
+</div>
+<div dir="rtl">
+⚡️منشه امیر در برنامه تفسیر خبر: اسرائیل بر این باور است که تا هنگامی که رژیم ایران عوض نشود منطقه روی آرامش نخواهد دید
+@FarsiVOA
+</div>
+
+## FarsiVOA — post 217141
+
+<div align="center">
+  <a href="telegram/content/FarsiVOA_217141_1778185350.mp4">🎬 Download video</a>
+</div>
+<div dir="rtl">
+⚡️حسن اعتمادی در برنامه تفسیر خبر: توافق خوب آن است که هر سه طرف احساس برنده بودن داشته باشند
+@FarsiVOA
+</div>
+
+## Persian_Trend_Official — post 13632
+
+
+<div dir="rtl">
+🔴اسرائیل هیوم
+
+💢پس از هدف قرار گرفتن یک تانکر جمهوری اسلامی توسط آمریکا، آنها به سمت ناوشکن آمریکایی موشک شلیک کرده اند و تبادل آتش رخ داده است
+🫆:Tony
+
+📌 @persian_trend_official
+پرشین ترند | متفاوت‌ترین کانال نظامی
+</div>
+
+## Persian_Trend_Official — post 13631
+
+<div align="center">
+  <img src="telegram/content/Persian_Trend_Official_13631_1778185351.jpg" alt="Photo">
+</div>
+<div dir="rtl">
+⭕️ شبکه خبر:
+
+📝 Nick
+
+📌 @persian_trend_official
+پرشین ترند | متفاوت‌ترین کانال نظامی
+</div>
+
+## Persian_Trend_Official — post 13630
+
+<div align="center">
+  <img src="telegram/content/Persian_Trend_Official_13630_1778185352.jpg" alt="Photo">
+</div>
+<div dir="rtl">
+🔴ابراهیم عزیزی، رئیس کمیسیون امنیت ملی مجلس جمهوری اسلامی‌
+
+💢تکرار همان اشتباه بارها و بارها پاسخ متفاوتی به شما نمی‌دهد؛ فقط پاسخی قوی‌تر خواهد بود.
+
+▪️به رژیم جدید دریایی ایران احترام بگذارید
+
+🫆:Tony
+
+📌 @persian_trend_official
+پرشین ترند | متفاوت‌ترین کانال نظامی
+</div>
+
+## IranianMinds — post 19733
+
+
+<div dir="rtl">
+🔴 صداوسیما : ناوگان آمریکایی به یک نفتکش ما تعرض کرد و ما هم در پاسخ بهش حمله ی موشکی کردیم. @IranianMinds
+</div>
+
+## IranianMinds — post 19732
+
+
+<div dir="rtl">
+🔴صدا‌و‌سیما:
+
+اماراتو دیدید بزنید.
+</div>
+
+## Dirty_Kids — post 389063
+
+
+<div dir="rtl">
+کانال وابسته به سپاه در روبیکا: آغاز شمارش معکوس برای فرستادن امارات به عصر شترسواری
+
+بنظر سپاه میخواد پاسخ سنگین به حملات امارات بده
+
+
+
+@Dirty_Kids 👻
+</div>
+
+## configx2ray — post 38609
+
+
+<div dir="rtl">
+رفقا فروش بازه گیگی 380 هزار تومان با ساب اطلاع وضعیت 
+⚡️ بدونه محدودیت کاربر و بدونه ضریب یک‌گیگ واقعی فقط پنجاه نفر اول 
+❤️ جهت خرید به ربات زیر مراجعه کنید 
+❤️ Bot : @netmeli1bot 
+🌟
+</div>
+
+## configx2ray — post 38608
+
+
+<div dir="rtl">
+رفقا فروش بازه گیگی 380 هزار تومان با ساب اطلاع وضعیت 
+⚡️
+
+بدونه محدودیت کاربر و بدونه ضریب یک‌گیگ واقعی فقط پنجاه نفر اول 
+❤️
+
+جهت خرید به ربات زیر مراجعه کنید 
+❤️
+
+Bot : @netmeli1bot 
+🌟
+</div>
+
+## alonews — post 118494
+
+<div align="center">
+  <a href="telegram/content/alonews_118494_1778185353.jpg">🎬 Download video</a>
+</div>
+<div dir="rtl">
+🔴فوری / اسرائیل هیوم: یک منبع اسرائیلی تأیید کرده است که تبادل آتش بین ایران و ایالات متحده در تنگه هرمز رخ داده است.
+
+
+✅ @AloNews خبر جنگ
+</div>
+
+## alonews — post 118493
+
+<div align="center">
+  <a href="telegram/content/alonews_118493_1778185353.jpg">🎬 Download video</a>
+</div>
+<div dir="rtl">
+👈انفجار مجدد در قشم
+
+
+✅ @AloNews خبر جنگ
+</div>
+
+## alonews — post 118492
+
+<div align="center">
+  <a href="telegram/content/alonews_118492_1778185353.mp4">🎬 Download video</a>
+</div>
+<div dir="rtl">
+👈صداوسیما: ناو امریکایی را هدف قرار دادیم و فرار کرد
+
+
+✅ @AloNews خبر جنگ
+</div>
+
+## alonews — post 118491
+
+<div align="center">
+  <a href="telegram/content/alonews_118491_1778185355.jpg">🎬 Download video</a>
+</div>
+<div dir="rtl">
+👈خبرگزاری مهر نوشت که پدافند ایران موفق به سرنگونی دو هواگرد متخاصم بر روی آسمان بندرعباس و قشم شده است. این خبرگزاری به نوع هواگردها اشاره نکرده است.
+
+
+✅ @AloNews خبر جنگ
+</div>
+
+## alonews — post 118490
+
+<div align="center">
+  <a href="telegram/content/alonews_118490_1778185356.jpg">🎬 Download video</a>
+</div>
+<div dir="rtl">
+🔴فوری/گویا حمله امارات تایید شده
+
+
+✅ @AloNews خبر جنگ
+</div>
+
+## alonews — post 118489
+
+<div align="center">
+  <img src="telegram/content/alonews_118489_1778185356.jpg" alt="Photo">
+</div>
+<div dir="rtl">
+👈خبرگزاری تسنیم وابسته به سپاه پاسداران تهدید می‌کند که اگر تأیید شود نیروی هوایی امارات جزیره قشم را بمباران کرده است، «بهای سنگینی» خواهد پرداخت
+
+
+✅ @AloNews خبر جنگ
+</div>
+
+## alonews — post 118488
+
+
+<div dir="rtl">
+🔥 پیشنهاد استثنایی، زیر قیمت کل ایران 🔥
+
+🚀 ۱۰ گیگ پرسرعت + ساب
+💰 فقط 1,000,000 تومان
+
+⏳ فقط تا ۲۴ ساعت (فرصت محدود برای استقبال از شما)
+
+⚡ بدون قطعی و افت سرعت
+🛡 بدون ضریب
+📞 پشتیبانی واقعی ۲۴ ساعته
+
+❗ این قیمت تکرار نمیشه، از دستش نده
+
+ثبت سفارش🟢✔️:
+🆔 @Cocsell_Admin
+🤖 @captainconfbot
+</div>
+
+---
 📅 بروزرسانی: 1405/02/17 23:42
 ---
 
