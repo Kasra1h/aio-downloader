@@ -7,6 +7,281 @@
 <!-- MSG START -->
 
 ---
+📅 بروزرسانی: 1405/02/20 17:33
+---
+
+## VahidOOnLine — post 239286
+
+<div align="center">
+  <a href="telegram/content/VahidOOnLine_239286_1778421789.mp4" target="_blank">🎬 Download video</a>
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+دفتر رسانه‌ای دولت دبی اعلام کرد دود غلیظ مشاهده‌شده در منطقه الجداف، ناشی از آتش‌سوزی در یک قایق متوقف در خور دبی بوده است.
+
+بر اساس این بیانیه، تیم‌های دفاع مدنی دبی حریق را در مدت ۵۴ دقیقه به طور کامل مهار کردند و عملیات خنک‌سازی محل ادامه دارد.
+
+دفتر رسانه‌ای دولت دبی اعلام کرد در این حادثه هیچ مصدومی گزارش نشده و رنگ سیاه و غلظت دود به دلیل سوختن مواد فایبرگلاس به کار رفته در ساخت قایق بوده است.
+‌🏁 🇬🇧 ManotoTV
+
+🤖 @VahidOOnLine
+</div>
+
+## VahidOOnLine — post 239285
+
+<div align="center">
+  <a href="telegram/content/VahidOOnLine_239285_1778421790.mp4" target="_blank">🎬 Download video</a>
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+ویدیوهای رسیده به ایران‌اینترنشنال نشان می‌دهند گروهی از ایرانیان مقیم آلمان، یکشنبه ۲۰ اردیبهشت در اعتراض به اعدام‌های جمهوری اسلامی، در شهر هانوفر تجمع کردند و فریاد «ایستاده‌ایم تا پایان» سردادند.
+‌🏁 🇬🇧 IranintlTV
+
+🤖 @VahidOOnLine
+</div>
+
+## mwarmonitor — post 8822
+
+
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+🔴شریل اتکیسون: در کجای جنگ هستیم، اگر هنوز مواد هسته‌ای، یعنی اورانیوم غنی‌شده را از آن‌ها نگرفته‌ایم؟
+🔵دونالد ترامپ: خب، ما در مقطعی آن را به دست خواهیم آورد، هر زمان که بخواهیم. ما آنجا را تحت نظر داریم. می‌دانی، من چیزی به نام «نیروی فضایی» ایجاد کردم و آن‌ها هر لحظه آنجا را تماشا می‌کنند. اگر کسی وارد شود، آن‌ها می‌توانند نامش، آدرسش و شماره نشانش را به شما بگویند.
+نه، ما آنجا را خیلی خوب تحت نظر داریم. اگر کسی به آن مکان نزدیک شود، ما باخبر خواهیم شد و آن‌ها را منفجر خواهیم کرد.
+
+@mwarmonitor
+</div>
+
+## mwarmonitor — post 8821
+
+<div align="center">
+  <a href="telegram/content/mwarmonitor_8821_1778421792.mp4" target="_blank">🎬 Download video</a>
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+🎬 Video
+</div>
+
+## DEJradio — post 4547
+
+<div align="center">
+  <img src="telegram/content/DEJradio_4547_1778421795.jpg" alt="Photo">
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+🔸
+⭕️ خبرگزاری فارس:
+مجتبی خامنه‌ای به نیروهای مسلح دستور ادامه عملیات را صادر کرده است
+
+خبرگزاری فارس وابسته به سـ.ـپاه یکشنبه ۲۰ اردیبهشت گزارش داد، مجتبی خامنه‌ای، در دیدار با پاسدار علی عبداللهی، فرمانده قرارگاه مرکزی خاتم‌الانبیا، «دستور جدیدی برای ادامه عملیات و مقابله قاطعانه با دشمنان» داده است.
+این خبرگزاری افزود، علی عبداللهی، دستورهای جدید را در دیدار با مجتبی خامنه‌ای دریافت کرده است.
+طبق این گزارش عبداللهی در این دیدار، مجتبی خامنه‌ای را در جریان «میزان آمادگی نیروهای مسلح» قرار داده است.
+زمان برگزاری این دیدار را مشخص نیست، اما عبداللهی گفته: «نیروهای مسلح برای مقابله با هرگونه اقدام آمریکا و اسرائیل در آمادگی کامل قرار دارند.»
+
+#موشتبا #تنگه_هرمز #جنگ
+
+@DEJradio
+</div>
+
+## IranIntlTV — post 336471
+
+<div align="center">
+  <a href="telegram/content/IranIntlTV_336471_1778421795.mp4" target="_blank">🎬 Download video</a>
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+یکی از آسیب‌دیدگان چشمی خیزش سراسری ۱۴۰۱ در تجمع برلین به ایران‌اینترنشنال گفت: «مذاکره با جمهوری اسلامی به‌معنای پایمال کردن خون جاویدنامان ایران است.» او افزود حکومت ایران اینترنت را به روی مردم قطع کرده و «ما اینجا هستیم تا صدای آن‌ها را به گوش جهانیان برسانیم.»
+
+گزارش علی حسن‌پور، خبرنگار ایران‌اینترنشنال
+@iranintltv
+</div>
+
+## IranIntlTV — post 336470
+
+<div align="center">
+  <a href="telegram/content/IranIntlTV_336470_1778421797.mp4" target="_blank">🎬 Download video</a>
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+ویدیوهای رسیده به ایران‌اینترنشنال نشان می‌دهند گروهی از ایرانیان مقیم آلمان، یکشنبه ۲۰ اردیبهشت در اعتراض به اعدام‌های جمهوری اسلامی، در شهر هانوفر تجمع کردند و فریاد «ایستاده‌ایم تا پایان» سردادند.
+</div>
+
+## ManotoTV — post 105242
+
+<div align="center">
+  <a href="telegram/content/ManotoTV_105242_1778421800.mp4" target="_blank">🎬 Download video</a>
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+گردهمایی ایرانیان ساکن توکیو مقابل وزارت خارجه ژاپن، یکشنبه ۲۰ اردیبهشت
+</div>
+
+## ManotoTV — post 105241
+
+<div align="center">
+  <a href="telegram/content/ManotoTV_105241_1778421802.mp4" target="_blank">🎬 Download video</a>
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+شماری از ایرانیان ساکن لندن روز شنبه ۱۰ مه با حضور در تجمعی مقابل دفتر نخست‌وزیر بریتانیا، مخالفت خود را با یهودستیزی اعلام کردند.
+
+شرکت‌کنندگان در این گردهمایی با در دست داشتن پرچم‌های ایران و اسرائیل و پلاکاردهایی در حمایت از همزیستی و مقابله با نفرت‌پراکنی، خواستار ایستادگی در برابر یهودستیزی و افراط‌گرایی شدند.
+
+این تجمع در حالی برگزار شد که در ماه‌های اخیر نگرانی‌ها درباره افزایش موارد یهودستیزی در بریتانیا و برخی کشورهای اروپایی افزایش یافته است.
+</div>
+
+## ManotoTV — post 105240
+
+<div align="center">
+  <a href="telegram/content/ManotoTV_105240_1778421804.mp4" target="_blank">🎬 Download video</a>
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+راهپیمایی ایرانیان گوتنبرگ
+</div>
+
+## ManotoTV — post 105239
+
+<div align="center">
+  <a href="telegram/content/ManotoTV_105239_1778421806.mp4" target="_blank">🎬 Download video</a>
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+حضور گسترده ایرانیان در تجمع ضد یهودستیزی در برابر دفتر نخست وزیر در لندن، یکشنبه ۲۰ اردیبهشت
+</div>
+
+## ManotoTV — post 105238
+
+<div align="center">
+  <a href="telegram/content/ManotoTV_105238_1778421808.mp4" target="_blank">🎬 Download video</a>
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+دفتر رسانه‌ای دولت دبی اعلام کرد دود غلیظ مشاهده‌شده در منطقه الجداف، ناشی از آتش‌سوزی در یک قایق متوقف در خور دبی بوده است.
+
+بر اساس این بیانیه، تیم‌های دفاع مدنی دبی حریق را در مدت ۵۴ دقیقه به طور کامل مهار کردند و عملیات خنک‌سازی محل ادامه دارد.
+
+دفتر رسانه‌ای دولت دبی اعلام کرد در این حادثه هیچ مصدومی گزارش نشده و رنگ سیاه و غلظت دود به دلیل سوختن مواد فایبرگلاس به کار رفته در ساخت قایق بوده است.
+</div>
+
+## FarsiVOA — post 217342
+
+
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+🔺رسانه حکومتی «ایرنا» می‌گوید رژیم ایران پاسخ خود به پیشنهاد آمریکا را از طریق پاکستان ارسال کرده است
+
+◾️خبرگزاری حکومتی «ایرنا» روز یکشنبه ۲۰ اردیبهشت گزارش داد که رژیم ایران پاسخ خود را به پیشنهاد ایالات متحده با هدف پایان دادن به جنگ دوماهه، از طریق پاکستان به‌عنوان میانجی به آمریکا ارسال کرده است.
+
+⬇️ بیشتر بخوانید:
+
+https://ir.voanews.com/a/irna-iran-response-to-us-pakistan/8148482.html
+</div>
+
+## IranianMinds — post 19881
+
+<div align="center">
+  <img src="telegram/content/IranianMinds_19881_1778421809.jpg" alt="Photo">
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+🔴 پست جدید ترامپ :
+
+وزیر خارجه اسرائیل ازم‌ تمجید کرد.
+
+@IranianMinds
+</div>
+
+## IranianMinds — post 19880
+
+
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+🔴 الجزیره به نقل از یک مقام پاکستانی:
+
+پیام ایران‌ رو منتقل کردیم به آمریکاییا و‌ دارن بررسیش میکنن
+
+@IranianMinds
+</div>
+
+## BBCPersian — post 280661
+
+
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+🔻اولین جلسه علنی مجلس ایران بعد از شروع جنگ اینترنتی برگزار شد
+
+مجلس ایران برای اولین بعد از شروع جنگ اخیر، به‌صورت وبینار (ویدئو کنفرانس) جلسه علنی داشت.
+
+آخرین جلسه علنی مجلس ۲۸ بهمن ۱۴۰۴ بود.
+
+بنابر گزارش‌ها موضوع این جلسه «التهابات بازار، نگرانی‌های مردم و گرانی‌های اخیر» بود.
+
+مجلس شورای اسلامی در آخرین جلسه‌اش در سال گذشته به موضوع اصلاح لایحه بودجه سال ۱۴۰۵ پرداخته بود.
+
+علت تاخیر در برگزاری جلسات مجلس «مسائل امنیتی» عنوان شده است.
+
+با اینکه مجلس پس از شروع جنگ جلسه علنی نداشت، به گفته علی نیکزاد، نایب رئیس مجلس، «مجلس و نمایندگان از روز نخست جنگ فعالانه نقش‌آفرینی» کردند و «قانون بودجه سال ۱۴۰۵ در میانه جنگ، نهایی و ابلاغ شد.»
+
+آقای نیکزاد همچنین گفت که «۱۲ جلسه با مشارکت هیئت رئیسه، رؤسای کمیسیون‌های تخصصی مجلس، معاونت‌های مجلس، مرکز پژوهش‌ها و اعضای هیئت دولت با موضوعات ارزیابی و نحوه جبران خسارت» و «بیش از ۹۰ جلسه و نشست نظارتی» در کمیسیون‌های مجلس برگزار شده است.
+
+https://bbc.in/4toE7Lq
+@BBCPersian
+</div>
+
+## manototv — post 105242
+
+<div align="center">
+  <a href="telegram/content/manototv_105242_1778421810.mp4" target="_blank">🎬 Download video</a>
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+گردهمایی ایرانیان ساکن توکیو مقابل وزارت خارجه ژاپن، یکشنبه ۲۰ اردیبهشت
+</div>
+
+## manototv — post 105241
+
+<div align="center">
+  <a href="telegram/content/manototv_105241_1778421811.mp4" target="_blank">🎬 Download video</a>
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+شماری از ایرانیان ساکن لندن روز شنبه ۱۰ مه با حضور در تجمعی مقابل دفتر نخست‌وزیر بریتانیا، مخالفت خود را با یهودستیزی اعلام کردند.
+
+شرکت‌کنندگان در این گردهمایی با در دست داشتن پرچم‌های ایران و اسرائیل و پلاکاردهایی در حمایت از همزیستی و مقابله با نفرت‌پراکنی، خواستار ایستادگی در برابر یهودستیزی و افراط‌گرایی شدند.
+
+این تجمع در حالی برگزار شد که در ماه‌های اخیر نگرانی‌ها درباره افزایش موارد یهودستیزی در بریتانیا و برخی کشورهای اروپایی افزایش یافته است.
+</div>
+
+## manototv — post 105240
+
+<div align="center">
+  <a href="telegram/content/manototv_105240_1778421813.mp4" target="_blank">🎬 Download video</a>
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+راهپیمایی ایرانیان گوتنبرگ
+</div>
+
+## manototv — post 105239
+
+<div align="center">
+  <a href="telegram/content/manototv_105239_1778421815.mp4" target="_blank">🎬 Download video</a>
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+حضور گسترده ایرانیان در تجمع ضد یهودستیزی در برابر دفتر نخست وزیر در لندن، یکشنبه ۲۰ اردیبهشت
+</div>
+
+## manototv — post 105238
+
+<div align="center">
+  <a href="telegram/content/manototv_105238_1778421817.mp4" target="_blank">🎬 Download video</a>
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+دفتر رسانه‌ای دولت دبی اعلام کرد دود غلیظ مشاهده‌شده در منطقه الجداف، ناشی از آتش‌سوزی در یک قایق متوقف در خور دبی بوده است.
+
+بر اساس این بیانیه، تیم‌های دفاع مدنی دبی حریق را در مدت ۵۴ دقیقه به طور کامل مهار کردند و عملیات خنک‌سازی محل ادامه دارد.
+
+دفتر رسانه‌ای دولت دبی اعلام کرد در این حادثه هیچ مصدومی گزارش نشده و رنگ سیاه و غلظت دود به دلیل سوختن مواد فایبرگلاس به کار رفته در ساخت قایق بوده است.
+</div>
+
+## alonews — post 119077
+
+<div align="center">
+  <a href="telegram/content/alonews_119077_1778421818.mp4" target="_blank">🎬 Download video</a>
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+👈نیروهای پزشکی ارتش بریتانیا با چتر پریدن تو جزیره تریستان دا کونیا وسط اقیانوس اطلس
+
+
+🔴 رفتن کمک یه شهروند انگلیسی که "هانتاویروس" گرفته
+
+
+✅ @AloNews خبر جنگ
+</div>
+
+---
 📅 بروزرسانی: 1405/02/20 17:22
 ---
 
