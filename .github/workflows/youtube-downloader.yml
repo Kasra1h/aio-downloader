@@ -1,4 +1,3 @@
----
 name: youtube-downloader
 
 on:
@@ -41,13 +40,11 @@ jobs:
         id: parse_entries
         run: |
           INPUT="${{ github.event.inputs.url }}"
-          # Replace commas with newlines to normalise delimiters
           MODIFIED=$(echo "$INPUT" | tr ',' '\n')
           ENTRIES='[]'
           while IFS= read -r line; do
-            line=$(echo "$line" | xargs)  # trim
+            line=$(echo "$line" | xargs)
             [ -z "$line" ] && continue
-            # Split line into tokens
             tokens=($line)
             i=0
             while [ $i -lt ${#tokens[@]} ]; do
@@ -56,7 +53,6 @@ jobs:
                 link="$token"
                 args=()
                 i=$((i+1))
-                # Collect everything until the next URL or end
                 while [ $i -lt ${#tokens[@]} ]; do
                   next="${tokens[$i]}"
                   if [[ "$next" =~ ^https?:// ]]; then
@@ -65,22 +61,17 @@ jobs:
                   args+=("$next")
                   i=$((i+1))
                 done
-                # Build JSON entry
                 args_json=$(printf '%s\n' "${args[@]}" | jq -R . | jq -s .)
                 entry=$(jq -n --arg link "$link" --argjson args "$args_json" '{link: $link, args: $args}')
                 ENTRIES=$(echo "$ENTRIES" | jq ". + [$entry]")
               else
-                # Token that is not a URL – skip it (malformed line)
                 i=$((i+1))
               fi
             done
           done <<< "$MODIFIED"
 
-          # Compact JSON for GitHub Actions output
           ENTRIES_JSON=$(echo "$ENTRIES" | jq -c .)
           echo "ENTRIES_JSON=$ENTRIES_JSON" >> $GITHUB_OUTPUT
-
-          # Determine if any entry is YouTube
           IS_ANY_YT=$(echo "$ENTRIES" | jq '[.[].link | test("youtube\\.com/watch\\?v=|youtu\\.be/")] | any')
           echo "IS_ANY_YT=$IS_ANY_YT" >> $GITHUB_OUTPUT
           echo "Parsed $(echo "$ENTRIES" | jq length) entries, any YouTube? $IS_ANY_YT"
@@ -93,31 +84,41 @@ jobs:
           echo "$HOME/.local/bin" >> $GITHUB_PATH
           echo "$HOME/.deno/bin" >> $GITHUB_PATH
 
-      # ── Install tools ─────────────────────────────────────
+      # ── Install tools (including fallback dependencies) ─────
       - name: Install tools (if any YouTube link)
         if: steps.parse_entries.outputs.IS_ANY_YT == 'true'
         run: |
+          # yt-dlp (primary)
           if ! command -v yt-dlp &> /dev/null; then
             curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o ~/.local/bin/yt-dlp
             chmod a+rx ~/.local/bin/yt-dlp
           fi
+          # Essential utilities
           if ! command -v jq &> /dev/null || ! command -v ffmpeg &> /dev/null; then
             sudo apt-get update -qq
             sudo apt-get install -y -qq jq ffmpeg
           fi
+          # Deno (required by yt-dlp for some extractors)
           if ! command -v deno &> /dev/null; then
             curl -fsSL https://deno.land/install.sh | sh -s -- -y
           fi
+          # Fallback tools
+          sudo apt-get install -y -qq python3-pip
+          pip3 install --quiet pytube youtube-dl
+          # youtube-dl binary
+          sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+          sudo chmod a+rx /usr/local/bin/youtube-dl
 
-      # ── Process all downloads, remux (video), and ZIP ─────
-      - name: Download, remux, and ZIP all files
+      # ── Main download phase (with failure tracking) ─────
+      - name: Download, remux, and ZIP all files (primary yt-dlp)
+        id: primary_download
         run: |
           set -e
           ENTRIES_JSON='${{ steps.parse_entries.outputs.ENTRIES_JSON }}'
           YT_DLP_ARGS="--cookies youtube-cookies.txt --js-runtimes deno --remote-components ejs:npm --no-progress"
           mkdir -p youtube-content youtube
 
-          # ── Helper: progress display (same as original) ──
+          # Helper: progress display
           download_with_progress() {
             local yt_args="$1"
             local output_template="$2"
@@ -150,17 +151,14 @@ jobs:
             fi
           }
 
-          # ── Loop over entries ─────────────────────────────
+          # Track failures
+          FAILED_ENTRIES='[]'
           count=$(echo "$ENTRIES_JSON" | jq length)
           for ((idx=0; idx<count; idx++)); do
             entry=$(echo "$ENTRIES_JSON" | jq ".[$idx]")
             link=$(echo "$entry" | jq -r '.link')
             args_len=$(echo "$entry" | jq '.args | length')
-
-            # Default arguments
-            type="v"
-            val1="max"
-            val2=""
+            type="v"; val1="max"; val2=""
             if [ "$args_len" -ge 1 ]; then
               type=$(echo "$entry" | jq -r '.args[0]')
             fi
@@ -171,33 +169,31 @@ jobs:
               val2=$(echo "$entry" | jq -r '.args[2]')
             fi
 
-            # Normalise type and value
+            # Normalise
             if [[ "$type" != "v" && "$type" != "a" ]]; then
               echo "Invalid type '$type' – defaulting to v(ideo) max"
               type="v"; val1="max"; val2=""
             fi
             if [ "$type" = "v" ]; then
-              case "$val1" in
-                2k) val1=1440 ;;
-                4k) val1=2160 ;;
-              esac
+              case "$val1" in 2k) val1=1440 ;; 4k) val1=2160 ;; esac
             fi
 
             echo "----------------------------------------"
             echo "Processing entry $((idx+1))/$count: $link  ($type $val1 $val2)"
 
-            # ── YouTube or non‑YouTube? ──────────────────
+            # ── YouTube only ──────────────────
             if echo "$link" | grep -Eq '(youtube\.com/watch\?v=|youtu\.be/)'; then
-              # Get metadata
               video_json=$(yt-dlp $YT_DLP_ARGS -j "$link") || {
-                echo "ERROR: yt-dlp failed to fetch metadata, skipping."
+                echo "ERROR: yt-dlp failed to fetch metadata, marking as failed."
+                FAILED_ENTRIES=$(echo "$FAILED_ENTRIES" | jq ". + [$entry]")
                 continue
               }
 
               if [ "$type" = "v" ]; then
                 combined=$(echo "$video_json" | jq '[.formats[] | select(.vcodec != "none" and .acodec != "none")]')
                 if [ "$(echo "$combined" | jq length)" -eq 0 ]; then
-                  echo "ERROR: No combined video+audio formats, skipping."
+                  echo "ERROR: No combined video+audio formats."
+                  FAILED_ENTRIES=$(echo "$FAILED_ENTRIES" | jq ". + [$entry]")
                   continue
                 fi
 
@@ -227,12 +223,12 @@ jobs:
                 total_size=$(echo "$video_json" | jq -r ".formats[] | select(.format_id == \"$format_id\") | .filesize // .filesize_approx // 0")
                 height_info=$(echo "$video_json" | jq -r ".formats[] | select(.format_id == \"$format_id\") | .height // 0")
                 fps_info=$(echo "$video_json" | jq -r ".formats[] | select(.format_id == \"$format_id\") | .fps // 0")
-
-                # Unique filename using height & FPS
                 output_template="youtube-content/%(title)s-${height_info}p-${fps_info}fps.%(ext)s"
+
                 echo "Downloading video format $format_id → $output_template"
                 if ! download_with_progress "$YT_DLP_ARGS -f $format_id" "$output_template" "$total_size" "$link"; then
-                  echo "Download failed, skipping remux."
+                  echo "Download failed."
+                  FAILED_ENTRIES=$(echo "$FAILED_ENTRIES" | jq ". + [$entry]")
                   continue
                 fi
 
@@ -253,7 +249,8 @@ jobs:
               elif [ "$type" = "a" ]; then
                 audio_formats=$(echo "$video_json" | jq '[.formats[] | select(.vcodec == "none" and .acodec != "none")]')
                 if [ "$(echo "$audio_formats" | jq length)" -eq 0 ]; then
-                  echo "ERROR: No audio-only formats, skipping."
+                  echo "ERROR: No audio-only formats."
+                  FAILED_ENTRIES=$(echo "$FAILED_ENTRIES" | jq ". + [$entry]")
                   continue
                 fi
 
@@ -272,20 +269,22 @@ jobs:
 
                 total_size=$(echo "$video_json" | jq -r ".formats[] | select(.format_id == \"$format_id\") | .filesize // .filesize_approx // 0")
                 abr_info=$(echo "$video_json" | jq -r ".formats[] | select(.format_id == \"$format_id\") | .abr // .tbr // 0")
-
                 output_template="youtube-content/%(title)s-${abr_info}kbps.%(ext)s"
+
                 echo "Downloading audio format $format_id → $output_template"
-                download_with_progress "$YT_DLP_ARGS -f $format_id" "$output_template" "$total_size" "$link" || {
-                  echo "Audio download failed, skipping."
+                if ! download_with_progress "$YT_DLP_ARGS -f $format_id" "$output_template" "$total_size" "$link"; then
+                  echo "Audio download failed."
+                  FAILED_ENTRIES=$(echo "$FAILED_ENTRIES" | jq ". + [$entry]")
                   continue
-                }
+                fi
               fi
             else
               # Non‑YouTube simple download
               echo "Non‑YouTube link: $link"
               cd youtube-content
               wget --progress=bar:force --content-disposition "$link" || {
-                echo "wget failed, skipping."
+                echo "wget failed."
+                FAILED_ENTRIES=$(echo "$FAILED_ENTRIES" | jq ". + [$entry]")
                 cd ..
                 continue
               }
@@ -293,14 +292,182 @@ jobs:
             fi
           done
 
-          # ── ZIP every downloaded file individually ────────
-          echo "========================================"
+          # Save failures for fallback step
+          FAILED_ENTRIES_JSON=$(echo "$FAILED_ENTRIES" | jq -c .)
+          echo "FAILED_ENTRIES_JSON=$FAILED_ENTRIES_JSON" >> $GITHUB_OUTPUT
+          echo "Primary phase done. Failures: $(echo "$FAILED_ENTRIES" | jq length)"
+
+      # ── Fallback pipelines (10 strategies) ─────────────────
+      - name: Fallback pipelines for failed YouTube entries
+        if: steps.primary_download.outputs.FAILED_ENTRIES_JSON != '[]'
+        run: |
+          set -e
+          FAILED_ENTRIES='${{ steps.primary_download.outputs.FAILED_ENTRIES_JSON }}'
+          count=$(echo "$FAILED_ENTRIES" | jq length)
+          echo "Attempting fallback for $count failed entries..."
+
+          fallback_ytdlp_extractor() {
+            echo "[fallback 1] yt-dlp with Android extractor"
+            yt-dlp --cookies youtube-cookies.txt --extractor-args "youtube:player_client=android" \
+                   --js-runtimes deno --remote-components ejs:npm --no-progress \
+                   -o "youtube-content/%(title)s.%(ext)s" "$1"
+          }
+
+          fallback_ytdlp_ios() {
+            echo "[fallback 2] yt-dlp with iOS extractor"
+            yt-dlp --cookies youtube-cookies.txt --extractor-args "youtube:player_client=ios" \
+                   --js-runtimes deno --remote-components ejs:npm --no-progress \
+                   -o "youtube-content/%(title)s.%(ext)s" "$1"
+          }
+
+          fallback_ytdlp_nocookies() {
+            echo "[fallback 3] yt-dlp without cookies"
+            yt-dlp --js-runtimes deno --remote-components ejs:npm --no-progress \
+                   -o "youtube-content/%(title)s.%(ext)s" "$1"
+          }
+
+          fallback_youtube_dl() {
+            echo "[fallback 4] youtube-dl"
+            youtube-dl --no-progress -o "youtube-content/%(title)s.%(ext)s" "$1"
+          }
+
+          fallback_pytube_max() {
+            echo "[fallback 5] pytube (best quality)"
+            python3 -c "
+          import sys
+          from pytube import YouTube
+          url = sys.argv[1]
+          yt = YouTube(url)
+          if '$2' == 'a':
+              stream = yt.streams.get_audio_only()
+              stream.download(output_path='youtube-content')
+          else:
+              stream = yt.streams.get_highest_resolution()
+              stream.download(output_path='youtube-content')
+          " "$1"
+          }
+
+          fallback_pytube_res() {
+            echo "[fallback 6] pytube (resolution $3)"
+            python3 -c "
+          import sys
+          from pytube import YouTube
+          url = sys.argv[1]
+          target_res = int(sys.argv[2])
+          yt = YouTube(url)
+          streams = yt.streams.filter(progressive=True, res='{}p'.format(target_res))
+          if not streams:
+              streams = yt.streams.filter(adaptive=True, res='{}p'.format(target_res))
+          if streams:
+              streams.first().download(output_path='youtube-content')
+          else:
+              yt.streams.get_highest_resolution().download(output_path='youtube-content')
+          " "$1" "$3"
+          }
+
+          fallback_thirdparty_api1() {
+            echo "[fallback 7] External API (loader.to)"
+            API_URL="https://loader.to/ajax/download.php?format=best&url=$(python3 -c "
+          import urllib.parse
+          print(urllib.parse.quote('$1'))
+          ")"
+            resp=$(curl -s "$API_URL")
+            dlink=$(echo "$resp" | jq -r '.link? // empty')
+            if [ -n "$dlink" ]; then
+              wget -O "youtube-content/%(title)s.%(ext)s" "$dlink"
+            else
+              return 1
+            fi
+          }
+
+          fallback_thirdparty_api2() {
+            echo "[fallback 8] External API (api.vevioz.com)"
+            API_URL="https://api.vevioz.com/apis/downloader?url=$(python3 -c "
+          import urllib.parse
+          print(urllib.parse.quote('$1'))
+          ")"
+            resp=$(curl -s "$API_URL")
+            dlink=$(echo "$resp" | jq -r '.download_url? // empty')
+            if [ -n "$dlink" ]; then
+              wget -O "youtube-content/%(title)s.%(ext)s" "$dlink"
+            else
+              return 1
+            fi
+          }
+
+          fallback_cobalt() {
+            echo "[fallback 9] cobalt.tools API"
+            API_URL="https://api.cobalt.tools/api/json"
+            payload='{"url":"'"$1"'","vCodec":"h264","aFormat":"mp3","videoQuality":"720"}'
+            resp=$(curl -s -H "Content-Type: application/json" -d "$payload" "$API_URL")
+            dlink=$(echo "$resp" | jq -r '.url? // empty')
+            if [ -n "$dlink" ]; then
+              wget -O "youtube-content/%(title)s.%(ext)s" "$dlink"
+            else
+              return 1
+            fi
+          }
+
+          fallback_force_ipv4() {
+            echo "[fallback 10] yt-dlp with forced IPv4 and retries"
+            yt-dlp --force-ipv4 --retries 10 --fragment-retries 10 --cookies youtube-cookies.txt \
+                   --js-runtimes deno --remote-components ejs:npm --no-progress \
+                   -o "youtube-content/%(title)s.%(ext)s" "$1"
+          }
+
+          FALLBACKS=(
+            fallback_ytdlp_extractor
+            fallback_ytdlp_ios
+            fallback_ytdlp_nocookies
+            fallback_youtube_dl
+            fallback_pytube_max
+            fallback_pytube_res
+            fallback_thirdparty_api1
+            fallback_thirdparty_api2
+            fallback_cobalt
+            fallback_force_ipv4
+          )
+
+          for ((idx=0; idx<count; idx++)); do
+            entry=$(echo "$FAILED_ENTRIES" | jq ".[$idx]")
+            link=$(echo "$entry" | jq -r '.link')
+            args_len=$(echo "$entry" | jq '.args | length')
+            type="v"; val1="max"; val2=""
+            [ "$args_len" -ge 1 ] && type=$(echo "$entry" | jq -r '.args[0]')
+            [ "$args_len" -ge 2 ] && val1=$(echo "$entry" | jq -r '.args[1]')
+            [ "$args_len" -ge 3 ] && val2=$(echo "$entry" | jq -r '.args[2]')
+
+            if ! echo "$link" | grep -Eq '(youtube\.com/watch\?v=|youtu\.be/)'; then
+              continue
+            fi
+
+            echo "========================================"
+            echo "Fallback for: $link ($type $val1 $val2)"
+
+            success=0
+            for func in "${FALLBACKS[@]}"; do
+              if $func "$link" "$type" "$val1" "$val2"; then
+                echo "✓ Fallback '$func' succeeded."
+                success=1
+                break
+              else
+                echo "✗ Fallback '$func' failed."
+              fi
+            done
+
+            if [ $success -eq 0 ]; then
+              echo "ERROR: All 10 fallback pipelines failed for $link"
+            fi
+          done
+
+      # ── ZIP every downloaded file individually ────────
+      - name: Create split ZIP archives for each file
+        run: |
           echo "Creating split ZIP archives for each file..."
           cd youtube-content
           for file in *; do
             if [ -f "$file" ]; then
               echo "→ Zipping $file"
-              # -j : junk (strip) path, so file is added directly to the root of the ZIP
               zip -j -s 99m -r "../youtube/${file}.zip" "$file"
             fi
           done
