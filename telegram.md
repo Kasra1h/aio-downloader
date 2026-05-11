@@ -7,6 +7,181 @@
 <!-- MSG START -->
 
 ---
+📅 بروزرسانی: 1405/02/21 11:02
+---
+
+## VahidOOnLine — post 239469
+
+<div align="center">
+  <a href="telegram/content/VahidOOnLine_239469_1778484760.mp4" target="_blank">🎬 Download video</a>
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+ونکوور| راهمپیمایی ایرانیان در حمایت از مردم ایران، ۲۰ اردیبهشت
+‌🏁 🇬🇧 ManotoTV
+
+🤖 @VahidOOnLine
+</div>
+
+## WithYashar — post 10895
+
+<div align="center">
+  <img src="telegram/content/WithYashar_10895_1778484762.jpg" alt="Photo">
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+تهدید شدید ترامپ به ایران در تروث : ایران ۴۷ سال است که با ایالات متحده و بقیه جهان بازی کرده است — امروز و فردا کردن، تأخیر پشت تأخیر! — و سرانجام وقتی باراک حسین اوباما رئیس‌جمهور شد، به گنج رسید. او نه‌تنها با آنها خوب بود، بلکه فوق‌العاده رفتار کرد؛ عملاً…
+</div>
+
+## pm_afshaa — post 90534
+
+
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+🔴به گفته GB News، نخست‌وزیر بریتانیا کیر استارمر «به نظر می‌رسد این هفته استعفا دهد
+
+
+💧 Rainbet.com the #1 Non-KYC Crypto Casino & Sportsbook @rainbetcom
+
+😁 @Pm_Afshaa
+</div>
+
+## pm_afshaa — post 90533
+
+
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+10 گیگ 2560 5 گیگ 1440 فقط تا ساعت 24 امروز با سرعت موشک بدون قطعی
+</div>
+
+## ManotoTV — post 105293
+
+<div align="center">
+  <a href="telegram/content/ManotoTV_105293_1778484762.mp4" target="_blank">🎬 Download video</a>
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+ونکوور| راهمپیمایی ایرانیان در حمایت از مردم ایران، ۲۰ اردیبهشت
+</div>
+
+## FarsiVOA — post 217405
+
+<div align="center">
+  <img src="telegram/content/FarsiVOA_217405_1778484764.jpg" alt="Photo">
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+ارتش اسرائیل با انتشار بیانیه‌ای از ساکنان تعدادی از مناطق جنوب لبنان خواست که خانه‌های خود را ترک کنند. در بیانیه ارتش اسرائیل که دوشنبه منتشر شد به شهرها و روستاهای الریحان (جزین)، جرجوع، کفر رمان، النمیریه، عرب‌صالیم، جمیجمه، مشغره، قلیا (البقاع الغربی) و حاروف اشاره شده است.
+
+این نوع هشدارها معمولا پیش از حملات هوایی صادر می‌شود.
+
+در بیانیه ارتش اسرائیل آمده است: «در پی نقض توافق آتش‌بس از سوی حزب‌اللهِ تروریستی، ارتش دفاعی ناچار است با قدرت علیه آن اقدام کند، اما قصد آسیب رساندن به شما را ندارد.»
+
+ارتش اسرائیل از ساکنان این مناطق خواسته «فوراً خانه‌های خود را تخلیه کرده و دست‌کم تا فاصله ۱۰۰۰ متری از روستاها و شهرها، به مناطق باز دور» شوند. این ارتش هشدار داده که «هر کسی که در نزدیکی عناصر حزب‌الله، تأسیسات و تجهیزات رزمی آن حضور داشته باشد، جان خود را در معرض خطر قرار می‌دهد.»
+@FarsiVOA
+</div>
+
+## FarsiVOA — post 217404
+
+<div align="center">
+  <img src="telegram/content/FarsiVOA_217404_1778484765.jpg" alt="Photo">
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+بر اساس ویدیوی منتشرشده از سوی تانکرترکرز، نفتکش بسیار بزرگ «برکه» متعلق به شرکت دولتی نفت ابوظبی، در حمله پهپادی چهاردهم اردیبهشت‌ماه هدف قرار گرفته است.
+
+رویترز پیش‌تر گزارش داده بود امارات، جمهوری اسلامی را به حمله با دو پهپاد به این نفتکش خالی در زمان عبور از تنگه هرمز متهم کرده و شرکت ادنوک اعلام کرده بود در این حادثه کسی آسیب ندیده است.
+
+تانکرترکرز می‌گوید این نفتکش پیش از حمله، محموله خود را در انتقالی پنهانی در شرق امارات به نفتکش دیگری منتقل کرده بود و هنگام بازگشت برای بارگیری دوباره هدف قرار گرفت.
+
+رویترز نیز گزارش داده ادنوک و خریدارانش برای خروج نفت گرفتارمانده در خلیج فارس، از روش‌هایی مانند خاموش کردن ردیاب‌ها و انتقال کشتی‌به‌کشتی استفاده کرده‌اند.
+@FarsiVOA
+</div>
+
+## Persian_Trend_Official — post 13876
+
+<div align="center">
+  <a href="telegram/content/Persian_Trend_Official_13876_1778484765.webm" target="_blank">🎬 Download video</a>
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+⭕️ علی مطهری، نایب‌رئیس پیشین مجلس شورای اسلامی:
+
+«ما داریم کار بزرگی انجام می‌دهیم که در تاریخ ثبت خواهد شد و آن این است که داریم دنیا را از شر دو آدم روانی، ترامپ و نتانیاهو نجات می‌دهیم و انشاالله به نتیجه برسیم.»
+
+📝 Nick
+
+📌 @persian_trend_official
+پرشین ترند | متفاوت‌ترین کانال نظامی
+</div>
+
+## Hranews — post 112874
+
+<div align="center">
+  <img src="telegram/content/Hranews_112874_1778484766.jpg" alt="Photo">
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+عرفان شکورزاده، دانشجوی مهندسی هوافضا به اتهام «جاسوسی» اعدام شد
+ 
+
+❗️
+❗️
+❗️
+❗️
+❗️ – مرکز رسانه قوه قضاییه از اجرای حکم #اعدام عرفان شکورزاده، دانشجوی کارشناسی ارشد مهندسی هوافضا، خبر داد. آقای شکورزاده پیشتر به اتهام «همکاری اطلاعاتی با موساد و سیا» به مجازات مرگ محکوم شده بود.
+ 
+ادامه مطلب
+ 
+#عرفان_شکورزاده
+
+↘️
+@hranews_bot تماس ✉️ -  @Hranews  کانال هرانا 🆑
+</div>
+
+## manototv — post 105293
+
+<div align="center">
+  <a href="telegram/content/manototv_105293_1778484766.mp4" target="_blank">🎬 Download video</a>
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+ونکوور| راهمپیمایی ایرانیان در حمایت از مردم ایران، ۲۰ اردیبهشت
+</div>
+
+## alonews — post 119199
+
+<div align="center">
+  <a href="telegram/content/alonews_119199_1778484768.mp4" target="_blank">🎬 Download video</a>
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+👈اظهارات جنجالی ظهره‌وند درباره سلاح سری ایران: من جاها و ظرفیت هایی رو دیدم که اتفاقی میوفته که بمب اتم جلوش ترقه است
+
+
+🔴شما میتونید زمان رو پشت سر بزارید، چیزی که در چند ثانیه از تهران تا واشنگتن برود
+
+
+🔴میشه یه کارهایی کرد که بمب اتم جلوش بچه بازیه!
+
+
+✅ @AloNews خبر جنگ
+</div>
+
+## alonews — post 119198
+
+<div align="center">
+  <a href="telegram/content/alonews_119198_1778484769.mp4" target="_blank">🎬 Download video</a>
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+👈به گفته GB News، نخست‌وزیر بریتانیا کیر استارمر «به نظر می‌رسد این هفته استعفا دهد»
+
+
+✅ @AloNews خبر جنگ
+</div>
+
+## alonews — post 119197
+
+<div align="center">
+  <a href="telegram/content/alonews_119197_1778484772.webm" target="_blank">🎬 Download video</a>
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+👈اولین مورد آلوده به ویروس هانتا در فرانسه ثبت شد
+
+
+✅ @AloNews خبر جنگ
+</div>
+
+---
 📅 بروزرسانی: 1405/02/21 10:52
 ---
 
